@@ -18,24 +18,43 @@ Biobricks.ai transforms STRING into parquet files.
 
 # Data Table List 
 `9606.clusters.info.v11.5.parquet`
+
 `9606.clusters.proteins.v11.5.parquet`
+
 `9606.clusters.tree.v11.5.parquet`
+
 `9606.protein.aliases.v11.5.parquet`
+
 `9606.protein.enrichment.terms.v11.5.parquet`
+
 `9606.protein.homology.v11.5.parquet`
+
 `9606.protein.info.v11.5.parquet`
+
 `9606.protein.links.detailed.v11.5.parquet`
+
 `9606.protein.links.full.v11.5.parquet`
+
 `9606.protein.links.v11.5.parquet`
+
 `9606.protein.physical.links.detailed.v11.5.parquet`
+
 `9606.protein.physical.links.full.v11.5.parquet`
+
 `9606.protein.physical.links.v11.5.parquet`
+
 `9606.protein.sequences.v11.5.fa.gz`
+
 `COG.links.detailed.v11.5.parquet`
+
 `COG.links.v11.5.parquet`
+
 `COG.mappings.v11.5.parquet`
+
 `species.mappings.v11.5.parquet`
+
 `species.tree.v11.parquet`
+
 `species.v11.parquet`
 
 # Description of Files 
