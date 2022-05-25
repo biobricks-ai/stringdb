@@ -7,6 +7,8 @@ dependencies:
     url: https://string-db.org/
 ---
 
+<a href="https://github.com/biobricks-ai/stringDB/actions"><img src="https://github.com/biobricks-ai/stringDB/actions/workflows/bricktools-check.yaml/badge.svg?branch=main"/></a>
+
 > STRING is a database of known and predicted protein-protein interactions. The interactions include direct (physical) and indirect (functional) associations; they stem from computational prediction, from knowledge transfer between organisms, and from interactions aggregated from other (primary) databases.
 
 Biobricks.ai transforms STRING into parquet files. 
