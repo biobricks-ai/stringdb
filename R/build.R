@@ -2,7 +2,7 @@ library(purrr)
 library(vroom)
 library(arrow)
 
-outdir <- fs::dir_create("data/")
+outdir <- fs::dir_create("brick/")
 
 save_parquet <- function(file) {
 	print(file)

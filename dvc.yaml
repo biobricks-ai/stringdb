@@ -11,4 +11,4 @@ stages:
     - R/build.R
     - cache/
     outs:
-    - data/
+    - brick/
