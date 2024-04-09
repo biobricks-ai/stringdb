@@ -18,8 +18,8 @@ stages:
     deps:
     - path: R/build.R
       hash: md5
-      md5: 1b98a228824efc12c954cf496974ec03
-      size: 662
+      md5: c8b92bee06eaf2cd9bb5b669ca9e9a03
+      size: 732
     - path: cache/
       hash: md5
       md5: a0ce7555ea0ee4876be72568f2c48650.dir
@@ -28,6 +28,6 @@ stages:
     outs:
     - path: brick/
       hash: md5
-      md5: 88e457f2703262a2476e9ba301376286.dir
-      size: 1940722315
+      md5: 2f28a0b3473a9b49fe3f7bb3a2c9d719.dir
+      size: 1940722125
       nfiles: 19
