@@ -7,6 +7,6 @@ dvc stage add -f -n download_data \
 dvc stage add -f -n build_data \
     -d cache/ \
     -d R/build.R \
-    -o data/ \
+    -o brick/ \
     Rscript R/build.R
 dvc repro
