@@ -11,6 +11,6 @@ dataref <- keep(href,~ grepl("*.gz$|*.txt$",.)) # URLs of files to be downloaded
 dataref <- dataref[!grepl(dataref, pattern="_schema")]
 files   <- fs::path_file(dataref) |> partial(fs::path,outs)() # output paths
 
+options(download.file.method="curl", download.file.extra="-k -L")
 fs::dir_ls("cache/") |> fs::file_delete() # delete any files already present 
 walk2(dataref, files, download.file)
-
